@@ -1,0 +1,49 @@
+header {
+  padding: 0 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between; 
+}
+
+header .navitems {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; 
+}
+
+header nav a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+header nav a:hover {
+  background-color: #61dafb;
+  color: #fff;
+}
+
+header .sign-in-btn {
+  background: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
